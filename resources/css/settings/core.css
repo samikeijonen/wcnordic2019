@@ -14,8 +14,8 @@
 	--spacing-unit-small: 4px;
 
 	/* Font families. */
-	--font-main: "Karla", sans-serif;
-	--font-heading: "Lora", serif;
+	--font-main: "Roboto", sans-serif;
+	--font-heading: "Playfair Display", serif;
 	--font-code: "Monaco", "Consolas", "Andale Mono", "DejaVu Sans Mono", monospace;
 	--font-pre: "Courier 10 Pitch", "Courier", monospace;
 

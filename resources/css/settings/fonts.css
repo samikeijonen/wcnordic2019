@@ -1,104 +1,145 @@
-/* lora-regular - latin */
 /* stylelint-disable font-family-name-quotes */
+/* stylelint-disable string-quotes */
+/* playfair-display-regular - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Lora";
+	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 400;
 	src:
-		local("Lora Regular"),
-		local("Lora-Regular"),
-		url("../fonts/lora-v12-latin-regular.woff2") format("woff2"),
-		url("../fonts/lora-v12-latin-regular.woff") format("woff");
+		local('Playfair Display Regular'),
+		local('PlayfairDisplay-Regular'),
+		url('../fonts/playfair-display-v14-latin-regular.woff2') format('woff2'),
+		url('../fonts/playfair-display-v14-latin-regular.woff') format('woff');
 }
 
-/* lora-italic - latin */
+/* playfair-display-italic - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Lora";
+	font-family: 'Playfair Display';
 	font-style: italic;
 	font-weight: 400;
 	src:
-		local("Lora Italic"),
-		local("Lora-Italic"),
-		url("../fonts/lora-v12-latin-italic.woff2") format("woff2"),
-		url("../fonts/lora-v12-latin-italic.woff") format("woff");
+		local('Playfair Display Italic'),
+		local('PlayfairDisplay-Italic'),
+		url('../fonts/playfair-display-v14-latin-italic.woff2') format('woff2'),
+		url('../fonts/playfair-display-v14-latin-italic.woff') format('woff');
 }
 
-/* lora-700 - latin */
+/* playfair-display-700 - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Lora";
+	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 700;
 	src:
-		local("Lora Bold"),
-		local("Lora-Bold"),
-		url("../fonts/lora-v12-latin-700.woff2") format("woff2"),
-		url("../fonts/lora-v12-latin-700.woff") format("woff");
+		local('Playfair Display Bold'),
+		local('PlayfairDisplay-Bold'),
+		url('../fonts/playfair-display-v14-latin-700.woff2') format('woff2'),
+		url('../fonts/playfair-display-v14-latin-700.woff') format('woff');
 }
 
-/* lora-700italic - latin */
+/* playfair-display-700italic - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Lora";
+	font-family: 'Playfair Display';
 	font-style: italic;
 	font-weight: 700;
 	src:
-		local("Lora Bold Italic"),
-		local("Lora-BoldItalic"),
-		url("../fonts/lora-v12-latin-700italic.woff2") format("woff2"),
-		url("../fonts/lora-v12-latin-700italic.woff") format("woff");
+		local('Playfair Display Bold Italic'),
+		local('PlayfairDisplay-BoldItalic'),
+		url('../fonts/playfair-display-v14-latin-700italic.woff2') format('woff2'),
+		url('../fonts/playfair-display-v14-latin-700italic.woff') format('woff');
 }
 
-/* karla-regular - latin */
+/* playfair-display-900 - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Karla";
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 900;
+	src:
+		local('Playfair Display Black'),
+		local('PlayfairDisplay-Black'),
+		url('../fonts/playfair-display-v14-latin-900.woff2') format('woff2'),
+		url('../fonts/playfair-display-v14-latin-900.woff') format('woff');
+}
+
+/* playfair-display-900italic - latin */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 900;
+	src:
+		local('Playfair Display Black Italic'),
+		local('PlayfairDisplay-BlackItalic'),
+		url('../fonts/playfair-display-v14-latin-900italic.woff2') format('woff2'),
+		url('../fonts/playfair-display-v14-latin-900italic.woff') format('woff');
+}
+
+/* roboto-regular - latin */
+@font-face {
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	src:
-		local("Karla"),
-		local("Karla-Regular"),
-		url("../fonts/karla-v6-latin-regular.woff2") format("woff2"),
-		url("../fonts/karla-v6-latin-regular.woff") format("woff");
+		local('Roboto'),
+		local('Roboto-Regular'),
+		url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'),
+		url('../fonts/roboto-v18-latin-regular.woff') format('woff');
 }
 
-/* karla-italic - latin */
+/* roboto-italic - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Karla";
+	font-family: 'Roboto';
 	font-style: italic;
 	font-weight: 400;
 	src:
-		local("Karla Italic"),
-		local("Karla-Italic"),
-		url("../fonts/karla-v6-latin-italic.woff2") format("woff2"),
-		url("../fonts/karla-v6-latin-italic.woff") format("woff");
+		local('Roboto Italic'),
+		local('Roboto-Italic'),
+		url('../fonts/roboto-v18-latin-italic.woff2') format('woff2'),
+		url('../fonts/roboto-v18-latin-italic.woff') format('woff');
 }
 
-/* karla-700 - latin */
+/* roboto-500 - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Karla";
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('Roboto Medium'),
+		local('Roboto-Medium'),
+		url('../fonts/roboto-v18-latin-500.woff2') format('woff2'),
+		url('../fonts/roboto-v18-latin-500.woff') format('woff');
+}
+
+/* roboto-500italic - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	src:
+		local('Roboto Medium Italic'),
+		local('Roboto-MediumItalic'),
+		url('../fonts/roboto-v18-latin-500italic.woff2') format('woff2'),
+		url('../fonts/roboto-v18-latin-500italic.woff') format('woff');
+}
+
+/* roboto-700 - latin */
+@font-face {
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	src:
-		local("Karla Bold"),
-		local("Karla-Bold"),
-		url("../fonts/karla-v6-latin-700.woff2") format("woff2"),
-		url("../fonts/karla-v6-latin-700.woff") format("woff");
+		local('Roboto Bold'),
+		local('Roboto-Bold'),
+		url('../fonts/roboto-v18-latin-700.woff2') format('woff2'),
+		url('../fonts/roboto-v18-latin-700.woff') format('woff');
 }
 
-/* karla-700italic - latin */
+/* roboto-700italic - latin */
 @font-face {
-	font-display: swap;
-	font-family: "Karla";
+	font-family: 'Roboto';
 	font-style: italic;
 	font-weight: 700;
 	src:
-		local("Karla Bold Italic"),
-		local("Karla-BoldItalic"),
-		url("../fonts/karla-v6-latin-700italic.woff2") format("woff2"),
-		url("../fonts/karla-v6-latin-700italic.woff") format("woff");
+		local('Roboto Bold Italic'),
+		local('Roboto-BoldItalic'),
+		url('../fonts/roboto-v18-latin-700italic.woff2') format('woff2'),
+		url('../fonts/roboto-v18-latin-700italic.woff') format('woff');
 }
