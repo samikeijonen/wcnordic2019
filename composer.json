@@ -14,7 +14,7 @@
 	],
 	"autoload"    : {
 		"psr-4" : {
-			"WcNordic2019\\" : "app/"
+			"WCNordic2019\\" : "app/"
 		}
 	},
 	"require": {
