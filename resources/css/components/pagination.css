@@ -1,0 +1,24 @@
+.pagination--comments {
+	margin-bottom: var(--spacing-unit-4x);
+}
+
+.pagination__items {
+	@mixin reset-list;
+	border-bottom: 1px solid var(--color-primary-100);
+	border-top: 1px solid var(--color-primary-100);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: var(--spacing-unit-4x);
+}
+
+.pagination__item:not(:last-child) {
+	&::after {
+		content: "\002F";
+		padding: 0 var(--spacing-unit-2x);
+	}
+}
+
+.pagination__anchor {
+	text-decoration: none;
+}

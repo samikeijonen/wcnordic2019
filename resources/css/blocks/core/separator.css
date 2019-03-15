@@ -1,0 +1,24 @@
+.wp-block-separator {
+	@mixin hr-styles;
+
+	&.is-style-wide {
+		max-width: var(--max-width-2);
+	}
+
+	&.is-style-dots {
+		background-color: transparent;
+		height: auto;
+		max-width: none;
+		text-align: center;
+		width: auto;
+
+		&::before {
+			color: var(--color-primary);
+			content: "\00b7 \00b7 \00b7";
+			font-family: serif;
+			font-size: calc(var(--global-baseline) * 3);
+			letter-spacing: var(--spacing-unit-4x);
+			padding-left: var(--spacing-unit-4x);
+		}
+	}
+}

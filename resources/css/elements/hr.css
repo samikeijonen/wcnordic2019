@@ -1,0 +1,4 @@
+hr {
+	@mixin center-block;
+	@mixin hr-styles;
+}

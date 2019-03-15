@@ -1,0 +1,4 @@
+export
+dist/js/*.js
+docs
+.eslintrc.js
