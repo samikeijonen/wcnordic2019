@@ -18,10 +18,10 @@
 <body <?php Hybrid\Attr\display( 'body' ); ?>>
 
 <div class="app mx-auto max-width-full">
-	<header class="app-header mx-auto max-width-1 py-4">
+	<header class="app-header mx-auto max-width-s py-4">
 		<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'wc-nordic-2019' ); ?></a>
 
-		<div class="app-header__branding px-2">
+		<div class="app-header__branding px-2 mb-4 text-center">
 		<?php
 			WCNordic2019\site_title();
 			WCNordic2019\site_description();

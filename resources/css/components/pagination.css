@@ -4,8 +4,6 @@
 
 .pagination__items {
 	@mixin reset-list;
-	border-bottom: 1px solid var(--color-primary-100);
-	border-top: 1px solid var(--color-primary-100);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

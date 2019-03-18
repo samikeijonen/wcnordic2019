@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2.0 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: WC Nordic 2019 1.2.0\n"
+"Project-Id-Version: WC Nordic 2019 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wcnordic2019\n"
-"POT-Creation-Date: 2019-03-18 12:01:12+00:00\n"
+"POT-Creation-Date: 2019-03-18 19:52:51+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -98,11 +98,11 @@ msgstr ""
 msgid "It looks like nothing was found at this location. Maybe try search?"
 msgstr ""
 
-#: resources/views/entry/single/post.php:32
+#: resources/views/entry/single/post.php:28
 msgid "Categories:"
 msgstr ""
 
-#: resources/views/entry/single/post.php:40
+#: resources/views/entry/single/post.php:36
 msgid "Tags:"
 msgstr ""
 

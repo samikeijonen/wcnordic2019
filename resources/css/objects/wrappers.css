@@ -1,8 +1,8 @@
-.max-width-1 {
+.max-width-s {
 	max-width: var(--max-width-s);
 }
 
-.max-width-2 {
+.max-width-m {
 	max-width: var(--max-width-m);
 }
 
@@ -53,4 +53,8 @@
 
 .mb-2 {
 	margin-bottom: var(--spacing-2);
+}
+
+.mb-4 {
+	margin-bottom: var(--spacing-4);
 }

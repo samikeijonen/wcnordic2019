@@ -6,11 +6,11 @@
  */
 
 ?>
-<article <?php Hybrid\Attr\display( 'entry' ); ?>>
-	<?php WCNordic2019\post_thumbnail(); ?>
-
+<article <?php Hybrid\Attr\display( 'entry', 'archive' ); ?>>
 	<header class="entry__header">
-		<h2 class="entry__title h3"><a class="decoration-none h-decoration-underline color-dark" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+		<h2 class="entry__title"><a class="decoration-none h-decoration-underline color-dark" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+		<?php Hybrid\View\display( 'partials', 'entry-byline' ); ?>
 	</header>
 
 	<div class="entry__summary font-size-1">

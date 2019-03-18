@@ -125,7 +125,6 @@
 }
 
 @media (--screen-m) {
-
 	.menu-toggle {
 		display: none;
 	}
@@ -141,6 +140,7 @@
 				align-items: center;
 				display: flex;
 				flex-wrap: wrap;
+				justify-content: center;
 			}
 
 			& > li {
@@ -154,9 +154,11 @@
 				position: absolute;
 				top: 100%;
 				transform: translateY(-var(--spacing-2));
-				transition: transform var(--transition-duration-m), opacity var(--transition-duration-m);
+				transition:
+					transform var(--transition-duration-m),
+					opacity var(--transition-duration-m);
 				width: calc(var(--spacing) * 25);
-				z-index: 99999;
+				z-index: 9999;
 
 				& ul {
 					top: 0;
@@ -167,8 +169,11 @@
 				 * keyboard focus to submenu items.
 				 */
 				/* stylelint-disable a11y/selector-pseudo-class-focus */
+				/* stylelint-disable no-descending-specificity */
 				& .focus > ul,
-				& li:hover > ul {
+				& li:hover > ul,
+				& .focus > ul,
+				& li:focus > ul {
 					left: auto;
 					right: 100%;
 				}
@@ -190,7 +195,9 @@
 			/* stylelint-disable no-descending-specificity,
 			a11y/selector-pseudo-class-focus */
 			& .focus > ul,
-			& li:hover > ul {
+			& li:hover > ul,
+			& .focus > ul,
+			& li:focus > ul {
 				left: calc(var(--spacing-2) * -1);
 				opacity: 1;
 				transform: translateY(0);

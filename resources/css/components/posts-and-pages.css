@@ -14,6 +14,15 @@
 	max-width: var(--max-width-m);
 }
 
+.entry--archive {
+	border-bottom: 2px solid var(--color-grey-100);
+	margin-bottom: var(--spacing-8);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--max-width-m);
+	padding-bottom: var(--spacing-8);
+}
+
 .entry__byline {
 	color: var(--color-grey-500);
 	font-size: var(--font-size-s);
@@ -23,6 +32,10 @@
 	& a {
 		color: inherit;
 	}
+}
+
+.entry__summary :last-child {
+	margin-bottom: 0;
 }
 
 .entry__footer {

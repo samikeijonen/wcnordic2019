@@ -1,7 +1,0 @@
-.app-header {
-	@media (--screen-m) {
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-	}
-}
