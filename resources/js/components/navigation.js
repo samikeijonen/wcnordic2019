@@ -25,7 +25,8 @@ const navigation = () => {
 	 * @return {boolean} True or false.
 	 */
 	function isMenuOpen() {
-		const isMenuOpenCheck = ( 'false' === button.getAttribute( 'aria-expanded' ) ) ? false : true;
+		const isMenuOpenCheck =
+			'false' === button.getAttribute( 'aria-expanded' ) ? false : true;
 		return isMenuOpenCheck;
 	}
 
@@ -37,47 +38,9 @@ const navigation = () => {
 		menu.classList.toggle( 'is-opened' );
 		button.classList.toggle( 'is-opened' );
 
-		const expanded = ( 'false' === button.getAttribute( 'aria-expanded' ) ) ? 'true' : 'false';
+		const expanded =
+			'false' === button.getAttribute( 'aria-expanded' ) ? 'true' : 'false';
 		button.setAttribute( 'aria-expanded', expanded );
-	}
-
-	/**
-	 * Set focus when nav is open.
-	 */
-	function setFocus() {
-		// Bail if menu is not open.
-		if ( ! isMenuOpen() ) {
-			return;
-		}
-
-		// Set focusable elements inside main navigation.
-		const focusableElements = container.querySelectorAll( [ 'a[href]', 'area[href]', 'input:not([disabled])', 'select:not([disabled])', 'textarea:not([disabled])', 'button:not([disabled])', 'iframe', 'object', 'embed', '[contenteditable]', '[tabindex]:not([tabindex^="-"])' ] );
-		const firstFocusableElement = focusableElements[ 0 ];
-		const lastFocusableElement = focusableElements[ focusableElements.length - 1 ];
-
-		// Redirect last Tab to first focusable element.
-		lastFocusableElement.addEventListener( 'keydown', function( e ) {
-			if ( ( 9 === e.keyCode && ! e.shiftKey ) ) {
-				e.preventDefault();
-				button.focus(); // Set focus on first element - that's actually close menu button.
-			}
-		}, false );
-
-		// Redirect first Shift+Tab to toggle button element.
-		firstFocusableElement.addEventListener( 'keydown', function( e ) {
-			if ( ( 9 === e.keyCode && e.shiftKey ) ) {
-				e.preventDefault();
-				button.focus(); // Set focus on first element.
-			}
-		}, false );
-
-		// Redirect Shift+Tab from the toggle button to last focusable element.
-		button.addEventListener( 'keydown', function( e ) {
-			if ( ( 9 === e.keyCode && e.shiftKey ) ) {
-				e.preventDefault();
-				lastFocusableElement.focus(); // Set focus on last element.
-			}
-		}, false );
 	}
 
 	/**
@@ -85,7 +48,10 @@ const navigation = () => {
 	 */
 	function resetMenu() {
 		// If menu toggle button have display: none css rule, we're on desktop.
-		if ( 'none' === window.getComputedStyle( button, null ).getPropertyValue( 'display' ) ) {
+		if (
+			'none' ===
+			window.getComputedStyle( button, null ).getPropertyValue( 'display' )
+		) {
 			container.classList.remove( 'is-opened' );
 			menu.classList.remove( 'is-opened' );
 			button.setAttribute( 'aria-expanded', 'false' );
@@ -128,33 +94,44 @@ const navigation = () => {
 	}
 
 	// Toggle menu on button click.
-	button.addEventListener( 'click', function() {
-		toggleMenu();
-
-		setFocus();
-	}, false );
+	button.addEventListener(
+		'click',
+		function() {
+			toggleMenu();
+		},
+		false
+	);
 
 	// Close menu using Esc key.
-	document.addEventListener( 'keyup', function( event ) {
-		if ( 27 === event.keyCode && isMenuOpen() ) {
-			toggleMenu();
-			button.focus();
-		}
-	}, false );
+	document.addEventListener(
+		'keyup',
+		function( event ) {
+			if ( 27 === event.keyCode && isMenuOpen() ) {
+				toggleMenu();
+				button.focus();
+			}
+		},
+		false
+	);
 
 	// Reset menu when on "desktop".
-	window.addEventListener( 'resize', function() {
-		// Wait for a while before firing the event again.
-		if ( ! timeout ) {
-			timeout = setTimeout( function() { /* eslint-disable-line no-undef */
-				// Reset timeout
-				timeout = null;
+	window.addEventListener(
+		'resize',
+		function() {
+			// Wait for a while before firing the event again.
+			if ( ! timeout ) {
+				/* eslint-disable no-undef */
+				timeout = setTimeout( function() {
+					// Reset timeout.
+					timeout = null;
 
-				// Run our resize functions
-				resetMenu();
-			}, 66 );
-		}
-	}, false );
+					// Run our resize functions.
+					resetMenu();
+				}, 66 );
+			}
+		},
+		false
+	);
 
 	// Init menu link focus class.
 	menuLinksFocused();
