@@ -13,7 +13,13 @@
 		max-width: var(--max-width-m);
 		text-align: center;
 		z-index: 1;
+	}
 
+	&-text {
+		font-size: var(--font-size-2xl);
+	}
+
+	&__inner-container {
 		h2,
 		h3,
 		h4 {
