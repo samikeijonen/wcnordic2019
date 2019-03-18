@@ -1,15 +1,21 @@
-@supports (grid-area: auto) {
-	.sidebar {
-		display: grid;
-		grid-gap: calc(var(--spacing-unit-2x) * 4);
-		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+.sidebar {
+	a {
+		color: inherit;
 	}
 
+	@supports (grid-area: auto) {
+		&__grid {
+			display: grid;
+			grid-gap: calc(var(--spacing-2) * 4);
+			grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+		}
+
+	}
 }
 
 .widget {
-	font-size: var(--font-size-1);
-	margin: 0 0 var(--spacing-unit-4x);
+	font-size: var(--font-size-m);
+	margin: 0 0 var(--spacing-4);
 
 	@supports (grid-area: auto) {
 		margin-bottom: 0;

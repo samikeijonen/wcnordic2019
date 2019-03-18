@@ -1,22 +1,10 @@
-.flex {
-	display: flex;
-}
-
-.justify-between {
-	justify-content: space-between;
-}
-
-.items-center {
-	align-items: center;
-}
-
-@media (--breakpoint-1) {
+@media (--screen-m) {
 
 	@supports (grid-area: auto) {
 
 		.grid {
 			display: grid;
-			grid-gap: calc(var(--spacing-unit-2x) * 4);
+			grid-gap: calc(var(--spacing-2) * 4);
 			grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
 
 			&--blog {

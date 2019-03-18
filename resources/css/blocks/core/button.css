@@ -1,6 +1,4 @@
 .wp-block-button {
-	margin-bottom: var(--spacing-unit-4x);
-
 	&.aligncenter {
 		text-align: center;
 	}
@@ -28,7 +26,7 @@
 
 /* Style variations. */
 .is-style-rounded .wp-block-button__link {
-	border-radius: calc(var(--spacing-unit) * 12);
+	border-radius: calc(var(--spacing) * 12);
 }
 
 .is-style-outline .wp-block-button__link,
@@ -43,7 +41,7 @@
 }
 
 .is-style-outline-rounded .wp-block-button__link { /* stylelint-disable-line no-descending-specificity */
-	border-radius: calc(var(--spacing-unit) * 12);
+	border-radius: calc(var(--spacing) * 12);
 }
 
 .is-style-underlined .wp-block-button__link { /* stylelint-disable-line no-descending-specificity */

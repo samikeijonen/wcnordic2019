@@ -7,7 +7,7 @@
 
 ?>
 <article <?php Hybrid\Attr\display( 'entry' ); ?>>
-	<header class="entry__header text-center">
+	<header class="entry__header">
 		<h1 class="entry__title"><?php single_post_title(); ?></h1>
 
 		<div class="entry__byline pb-2">

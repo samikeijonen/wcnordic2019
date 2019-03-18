@@ -63,12 +63,12 @@ add_action(
 				[
 					'name'  => esc_html__( 'Main', 'wc-nordic-2019' ),
 					'slug'  => 'main',
-					'color' => 'hsl(245, 80%, 43%)',
+					'color' => 'hsl(182, 40%, 45%)',
 				],
 				[
 					'name'  => esc_html__( 'Dark', 'wc-nordic-2019' ),
 					'slug'  => 'dark',
-					'color' => 'hsl(245, 82%, 7%)',
+					'color' => 'hsl(182, 82%, 7%)',
 				],
 				[
 					'name'  => esc_html__( 'White', 'wc-nordic-2019' ),
@@ -78,7 +78,7 @@ add_action(
 				[
 					'name'  => esc_html__( 'Light', 'wc-nordic-2019' ),
 					'slug'  => 'light',
-					'color' => 'hsl(245, 20%, 97%)',
+					'color' => 'hsl(0, 0%, 93%)',
 				],
 				[
 					'name'  => esc_html__( 'Grey', 'wc-nordic-2019' ),
@@ -199,7 +199,7 @@ add_action(
 		$args = [
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget__title h5">',
+			'before_title'  => '<h2 class="widget__title h3 has-white-color">',
 			'after_title'   => '</h2>',
 		];
 

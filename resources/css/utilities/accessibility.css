@@ -23,13 +23,13 @@
 		clip-path: none;
 		color: var(--color-white);
 		display: block;
-		font-size: var(--font-size-1);
+		font-size: var(--font-size-m);
 		font-weight: 700;
 		height: auto;
-		left: var(--spacing-unit-2x);
-		padding: var(--spacing-unit-2x) var(--spacing-unit-3x);
+		left: var(--spacing-2);
+		padding: var(--spacing-2) var(--spacing-3);
 		text-decoration: none;
-		top: var(--spacing-unit-2x);
+		top: var(--spacing-2);
 		width: auto;
 		/* Above WP toolbar. */
 		z-index: 100000;

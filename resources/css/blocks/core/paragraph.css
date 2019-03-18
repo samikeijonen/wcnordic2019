@@ -2,23 +2,22 @@
 	&::first-letter {
 		float: left;
 		font-family: serif;
-		font-size: var(--font-size-h1);
+		font-size: var(--font-size-3xl);
 		font-style: normal;
 		font-weight: 600;
-		margin-right: var(--spacing-unit-2x);
+		margin-right: var(--spacing-2);
 		text-transform: uppercase;
 	}
 }
 
 .is-style-ingress,
 .is-style-ingress.wp-block-paragraph {
-	color: var(--color-grey-60);
-	font-size: var(--font-size-h3);
-	text-align: center;
+	color: var(--color-grey-500);
+	font-size: var(--font-size-xl);
 }
 
 .is-style-highlight,
 .is-style-highlight.wp-block-paragraph {
 	background-color: var(--color-primary-100);
-	padding: var(--spacing-unit-3x);
+	padding: var(--spacing-3);
 }

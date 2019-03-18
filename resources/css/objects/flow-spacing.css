@@ -1,0 +1,26 @@
+.entry__content {
+	--flow-space: var(--spacing-4);
+}
+
+.entry__content > * {
+	@mixin center;
+	max-width: var(--max-width-m);
+}
+
+.entry__content > * + * {
+	margin-bottom: 0;
+	margin-top: var(--flow-space);
+}
+
+.entry__content > h2,
+.entry__content > h3 {
+	--flow-space: calc(var(--spacing-4) * 2);
+}
+
+.entry__content > h2 + p,
+.entry__content > h3 + p,
+.entry__content > h4 + p,
+.entry__content > h5 + p,
+.entry__content > h6 + p {
+	--flow-space: var(--spacing-3);
+}

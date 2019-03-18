@@ -14,7 +14,7 @@ img {
 }
 
 figure {
-	margin: 0 0 var(--spacing-unit-4x);
+	margin: 0 0 var(--spacing-4);
 
 	img {
 		@mixin center-block;
@@ -22,9 +22,9 @@ figure {
 }
 
 figcaption {
-	color: var(--color-grey-60);
-	font-size: var(--font-size-1);
-	margin: var(--spacing-unit-2x) auto;
-	max-width: var(--max-width-2);
+	color: var(--color-grey-500);
+	font-size: var(--font-size-m);
+	margin: var(--spacing-2) auto;
+	max-width: var(--max-width-m);
 	text-align: center;
 }

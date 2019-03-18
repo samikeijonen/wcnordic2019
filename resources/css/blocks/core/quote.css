@@ -2,13 +2,13 @@
 .wp-block-pullquote__citation,
 .wp-block-quote cite,
 .wp-block-pullquote cite {
-	color: var(--color-grey-60);
+	color: var(--color-grey-500);
 	font-size: inherit;
-	margin-top: var(--spacing-unit-3x);
+	margin-top: var(--spacing-3);
 }
 
 .wp-block-quote.is-style-large p {
-	font-size: var(--font-size-h2);
+	font-size: var(--font-size-2xl);
 }
 
 .wp-block-pullquote.is-style-solid-color {

@@ -1,7 +1,5 @@
 .wp-block-columns,
 .wp-block-text-columns {
-	margin-bottom: var(--spacing-unit-4x);
-
 	.wp-block-column {
 		margin: 0;
 		width: auto;
@@ -12,9 +10,9 @@
 	}
 
 	@supports (grid-area: auto) {
-		@media (--breakpoint-1) {
+		@media (--screen-m) {
 			display: grid;
-			grid-gap: var(--spacing-unit-4x);
+			grid-gap: var(--spacing-4);
 			grid-template-columns: repeat(2, 1fr);
 
 			&.has-3-columns,

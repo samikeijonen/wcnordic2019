@@ -1,19 +1,19 @@
 .alignleft {
-	@media (--breakpoint-1) {
+	@media (--screen-m) {
 		float: left;
-		margin-bottom: var(--spacing-unit-3x);
-		margin-left: calc(50% - var(--max-width-2) / 2);
-		margin-right: var(--spacing-unit-3x);
+		margin-bottom: var(--spacing-3);
+		margin-left: calc(50% - var(--max-width-m) / 2);
+		margin-right: var(--spacing-3);
 		max-width: 50%;
 	}
 }
 
 .alignright {
-	@media (--breakpoint-1) {
+	@media (--screen-m) {
 		float: right;
-		margin-bottom: var(--spacing-unit-3x);
-		margin-left: var(--spacing-unit-3x);
-		margin-right: calc(50% - var(--max-width-2) / 2);
+		margin-bottom: var(--spacing-3);
+		margin-left: var(--spacing-3);
+		margin-right: calc(50% - var(--max-width-m) / 2);
 		max-width: 50%;
 	}
 }
@@ -24,15 +24,15 @@
 }
 
 .alignfull {
-	margin-left: calc(var(--spacing-unit-2x) * -1);
-	margin-right: calc(var(--spacing-unit-2x) * -1);
-	max-width: calc(100% + var(--spacing-unit-4x));
+	margin-left: calc(var(--spacing-2) * -1);
+	margin-right: calc(var(--spacing-2) * -1);
+	max-width: calc(100% + var(--spacing-4));
 }
 
-@media (--breakpoint-1) {
+@media (--screen-m) {
 
 	.alignwide {
-		max-width: var(--max-width-wide);
+		max-width: var(--max-width-l);
 	}
 
 }

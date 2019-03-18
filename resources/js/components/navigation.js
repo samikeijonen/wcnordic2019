@@ -35,6 +35,7 @@ const navigation = () => {
 	function toggleMenu() {
 		container.classList.toggle( 'is-opened' );
 		menu.classList.toggle( 'is-opened' );
+		button.classList.toggle( 'is-opened' );
 
 		const expanded = ( 'false' === button.getAttribute( 'aria-expanded' ) ) ? 'true' : 'false';
 		button.setAttribute( 'aria-expanded', expanded );

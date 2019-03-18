@@ -11,8 +11,12 @@
 	}
 }
 
+.font-heading {
+	font-family: var(--font-family-serif);
+}
+
 .font-main {
-	font-family: var(--font-main);
+	font-family: var(--font-family-sans);
 }
 
 .fw-700 {
@@ -24,11 +28,19 @@
 }
 
 .font-size-1 {
-	font-size: var(--font-size-1);
+	font-size: var(--font-size-m);
 }
 
 .color-grey-60 {
-	color: var(--color-grey-60);
+	color: var(--color-grey-500);
+}
+
+.color-grey-100 {
+	color: var(--color-grey-100);
+}
+
+.color-grey-700 {
+	color: var(--color-grey-700);
 }
 
 .text-center {

@@ -8,7 +8,7 @@
 # Settings - Global variables, config switches.
 --------------------------------------------------------------*/
 @import "settings/media-queries.css";
-@import "settings/core.css";
+@import "settings/variables.css";
 @import "settings/fonts.css";
 @import "settings/colors.css";
 
@@ -56,13 +56,13 @@
 @import "blocks/core/separator.css";
 @import "blocks/core/subhead.css";
 @import "blocks/core/table.css";
-@import "blocks/font-sizes.css";
-@import "blocks/color-palette.css";
 
 
 /*--------------------------------------------------------------
 # Utilities - Helpers and overrides.
 --------------------------------------------------------------*/
+@import "utilities/color-palette.css";
+@import "utilities/font-sizes.css";
 @import "utilities/helpers.css";
 @import "utilities/prefers-reduced-motion.css";
 
@@ -81,25 +81,24 @@
 
 /* Post title. */
 .editor-post-title__block .editor-post-title__input {
-	font-family: var(--font-heading);
-	font-size: var(--font-size-h1);
+	font-family: var(--font-family-serif);
+	font-size: var(--font-size-3xl);
 	min-height: auto;
-	text-align: center;
 }
 
 /* Paragraph needs more specifity. */
 .wp-block-paragraph {
-	font-size: var(--font-size-global);
+	font-size: var(--font-size-l);
 }
 
 /* Main column width. */
 .wp-block {
-	max-width: calc(var(--max-width-2) + 2rem);
+	max-width: calc(var(--max-width-m) + 2rem);
 }
 
 /* Width of "wide" blocks. */
 .wp-block[data-align="wide"] {
-	max-width: var(--max-width-wide);
+	max-width: var(--max-width-l);
 }
 
 /* Width of "full-wide" blocks. */
@@ -111,7 +110,7 @@
  * Note that headings line-height is overwritten in elements/headings.css.
  */
 .editor-rich-text__tinymce:not(.wp-block-cover-text):not(.wp-block-subhead):not(h2):not(h3) {
-	line-height: var(--line-height-global);
+	line-height: var(--line-height-m);
 }
 
 /* Search styles. */

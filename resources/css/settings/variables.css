@@ -1,0 +1,60 @@
+/**
+ * Baseline grid lines height is so called 8 point grid.
+ * Every spacing metric should be based on this.
+ * Inspired by inuitcss.
+ * @link: https://github.com/inuitcss/inuitcss
+ */
+
+:root {
+	/* Spacing. */
+	--spacing: 0.5rem;
+	--spacing-2: 1rem;
+	--spacing-3: 1.5rem;
+	--spacing-4: 2rem;
+	--spacing-4: 2rem;
+	--spacing-5: 2.5rem;
+	--spacing-6: 3rem;
+	--spacing-7: 3.5rem;
+	--spacing-8: 4rem;
+	--spacing-s: 4px;
+
+	/* Font families. */
+	--font-family-sans: "Roboto", sans-serif;
+	--font-family-serif: "Playfair Display", serif;
+	--font-family-mono: "Monaco", "Consolas", "Andale Mono", "DejaVu Sans Mono", monospace;
+
+	/* Font sizes. */
+	--font-size-s: 0.875rem;
+	--font-size-m: 1rem;
+	--font-size-l: 1.125rem;
+	--font-size-xl: 1.25rem;
+	--font-size-2xl: 1.5rem;
+	--font-size-3xl: 2rem;
+
+	@media (--screen-m) {
+		--font-size-xl: 1.5rem;
+		--font-size-2xl: 2rem;
+		--font-size-3xl: 2.5rem;
+	}
+
+	@media (--screen-l) {
+		--font-size-2xl: 2.5rem;
+		--font-size-3xl: 3rem;
+	}
+
+	/* Line heights. */
+	--line-height-s: 1.25;
+	--line-height-m: 1.5;
+
+	/* Letter spacings. */
+	--letter-spacing-m: 0.1em;
+
+	/* Max widths. */
+	--max-width-s: 78rem;
+	--max-width-m: 42rem;
+	--max-width-l: 65rem;
+	--max-width-xl: 120rem;
+
+	/* Transition. */
+	--transition-duration-m: 300ms;
+}

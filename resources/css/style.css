@@ -10,7 +10,7 @@
 # Settings - Global variables, config switches.
 --------------------------------------------------------------*/
 @import "settings/media-queries.css";
-@import "settings/core.css";
+@import "settings/variables.css";
 @import "settings/fonts.css";
 @import "settings/colors.css";
 
@@ -52,6 +52,7 @@
 # Objects - Undecorated design patterns.
 --------------------------------------------------------------*/
 @import "objects/animations.css";
+@import "objects/flow-spacing.css";
 @import "objects/icons.css";
 @import "objects/layouts.css";
 @import "objects/wrappers.css";
@@ -77,8 +78,6 @@
 @import "blocks/core/separator.css";
 @import "blocks/core/subhead.css";
 @import "blocks/core/table.css";
-@import "blocks/font-sizes.css";
-@import "blocks/color-palette.css";
 
 
 /*--------------------------------------------------------------
@@ -87,6 +86,7 @@
 @import "components/archives.css";
 @import "components/comments.css";
 @import "components/galleries.css";
+@import "components/header.css";
 @import "components/media.css";
 @import "components/navigation.css";
 @import "components/pagination.css";
@@ -99,5 +99,7 @@
 --------------------------------------------------------------*/
 @import "utilities/accessibility.css";
 @import "utilities/alignments.css";
+@import "utilities/color-palette.css";
+@import "utilities/font-sizes.css";
 @import "utilities/helpers.css";
 @import "utilities/prefers-reduced-motion.css";

@@ -1,8 +1,8 @@
 @define-mixin typography {
-	color: var(--color-primary-900);
-	font-family: var(--font-main);
-	font-size: var(--font-size-global);
-	line-height: var(--line-height-global);
+	color: var(--color-grey-700);
+	font-family: var(--font-family-sans);
+	font-size: var(--font-size-l);
+	line-height: var(--line-height-m);
 	word-wrap: break-word;
 }
 
@@ -27,11 +27,7 @@
 }
 
 @define-mixin global-transition {
-	transition: all var(--transition-duration-1) ease-in-out;
-}
-
-@define-mixin global-box-shadow {
-	box-shadow: 0 var(--spacing-unit) var(--spacing-unit-4x) var(--color-grey-10);
+	transition: all var(--transition-duration-m) ease-in-out;
 }
 
 @define-mixin button-block {
@@ -39,12 +35,14 @@
 	border: none;
 	border-radius: 0;
 	color: var(--color-white);
-	font-weight: 700;
-	padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit-2x) * 1.25);
+	font-weight: 500;
+	letter-spacing: var(--letter-spacing-m);
+	padding: calc(var(--spacing) * 1.5) calc(var(--spacing-2) * 1.25);
+	text-transform: uppercase;
 }
 
 @define-mixin button-block-hover {
-	background-color: var(--color-primary-900);
+	background-color: var(--color-primary-500);
 	color: var(--color-white);
 	outline-offset: -2px;
 }
@@ -79,17 +77,17 @@
 }
 
 @define-mixin subheading {
-	color: var(--color-grey-60);
-	font-size: var(--font-size-h3);
+	color: var(--color-grey-500);
+	font-size: var(--font-size-xl);
 	font-style: normal;
 	text-align: center;
 }
 
 @define-mixin hr-styles {
-	background-color: var(--color-primary-100);
+	background-color: var(--color-grey-100);
 	border: 0;
-	height: var(--spacing-unit-small);
-	margin-bottom: calc(var(--spacing-unit) * 8);
-	margin-top: calc(var(--spacing-unit) * 8);
-	max-width: calc(var(--spacing-unit-2x) * 13);
+	height: var(--spacing-s);
+	margin-bottom: calc(var(--spacing) * 8);
+	margin-top: calc(var(--spacing) * 8);
+	max-width: calc(var(--spacing-2) * 13);
 }

@@ -5,13 +5,13 @@
 		padding-left: 0;
 
 		li {
-			margin-bottom: var(--spacing-unit-3x);
+			margin-bottom: var(--spacing-3);
 		}
 
 		@supports (grid-area: auto) {
 			display: grid;
-			grid-gap: var(--spacing-unit-3x);
-			grid-template-columns: repeat(auto-fill, minmax(calc(var(--spacing-unit) * 34), 1fr));
+			grid-gap: var(--spacing-3);
+			grid-template-columns: repeat(auto-fill, minmax(calc(var(--spacing) * 34), 1fr));
 
 			li {
 				margin-bottom: 0;
@@ -24,7 +24,7 @@
 	}
 
 	&__item-excerpt {
-		margin-bottom: var(--spacing-unit-3x);
-		margin-top: var(--spacing-unit-3x);
+		margin-bottom: var(--spacing-3);
+		margin-top: var(--spacing-3);
 	}
 }

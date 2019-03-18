@@ -1,5 +1,5 @@
 .pagination--comments {
-	margin-bottom: var(--spacing-unit-4x);
+	margin-bottom: var(--spacing-4);
 }
 
 .pagination__items {
@@ -9,13 +9,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: var(--spacing-unit-4x);
+	padding: var(--spacing-4);
 }
 
 .pagination__item:not(:last-child) {
 	&::after {
 		content: "\002F";
-		padding: 0 var(--spacing-unit-2x);
+		padding: 0 var(--spacing-2);
 	}
 }
 

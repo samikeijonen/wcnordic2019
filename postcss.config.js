@@ -8,6 +8,9 @@ module.exports = ( { file, options, env } ) => ( { /* eslint-disable-line */
 		'postcss-import': {},
 		'postcss-preset-env': {
 			stage: 0,
+			features: {
+				'custom-properties': false,
+			},
 		},
 		'postcss-mixins': {},
 		'postcss-nested': {},

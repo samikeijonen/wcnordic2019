@@ -11,36 +11,39 @@
 .entry__footer,
 .comments-template {
 	@mixin center;
-	max-width: var(--max-width-2);
-}
-
-.entry__content > h2 {
-	margin-top: calc(var(--spacing-unit-4x) * 2);
+	max-width: var(--max-width-m);
 }
 
 .entry__byline {
-	font-size: var(--font-size-1);
+	color: var(--color-grey-500);
+	font-size: var(--font-size-s);
+	letter-spacing: var(--letter-spacing-m);
+	text-transform: uppercase;
+
+	& a {
+		color: inherit;
+	}
 }
 
 .entry__footer {
-	margin-top: var(--spacing-unit-2x) * 4;
+	margin-top: var(--spacing-2) * 4;
 }
 
 .terms-wrapper {
-	color: var(--color-grey-60);
+	color: var(--color-grey-500);
 	display: block;
 
 	+ .terms-wrapper {
-		margin-top: var(--spacing-unit-2x);
+		margin-top: var(--spacing-2);
 	}
 
 	.svg {
-		margin-right: var(--spacing-unit-2x);
+		margin-right: var(--spacing-2);
 	}
 
 	a {
-		color: var(--color-grey-60);
-		font-size: var(--font-size-1);
+		color: var(--color-grey-500);
+		font-size: var(--font-size-m);
 		font-weight: 700;
 		text-decoration: none;
 		text-transform: capitalize;

@@ -4,43 +4,44 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-heading);
-	margin: 0 0 var(--spacing-unit-2x);
+	color: var(--color-primary-900);
+	font-family: var(--font-family-serif);
+	margin: 0 0 var(--spacing-2);
 }
 
 h1,
 .h1 {
-	font-size: var(--font-size-h1);
-	line-height: var(--line-height-heading);
+	font-size: var(--font-size-3xl);
+	line-height: var(--line-height-s);
 }
 
 h2,
 .h2,
 .wp-block-heading h2.editor-rich-text__tinymce {
-	font-size: var(--font-size-h2);
-	line-height: var(--line-height-heading);
+	font-size: var(--font-size-2xl);
+	line-height: var(--line-height-s);
 }
 
 h3,
 .h3,
 .wp-block-heading h3.editor-rich-text__tinymce {
-	font-size: var(--font-size-h3);
+	font-size: var(--font-size-xl);
 }
 
 h4,
 .h4,
 .wp-block-heading h4.editor-rich-text__tinymce {
-	font-size: var(--font-size-h4);
+	font-size: var(--font-size-l);
 }
 
 h5,
 .h5,
 .wp-block-heading h5.editor-rich-text__tinymce {
-	font-size: var(--font-size-h5);
+	font-size: var(--font-size-l);
 }
 
 h6,
 .h6,
 .wp-block-heading h6.editor-rich-text__tinymce {
-	font-size: var(--font-size-h6);
+	font-size: var(--font-size-l);
 }
