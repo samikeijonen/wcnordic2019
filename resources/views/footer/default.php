@@ -17,7 +17,7 @@
 				<span class="sep"> &middot; </span>
 				<?php
 					/* translators: %1$s is theme name, and %2$s is link to theme site. */
-					printf( esc_html__( 'Theme %1$s by %2$s', 'wc-nordic-2019' ), 'Uuups', '<a class="color-grey-100" href="https://foxland.fi/">Foxland</a>' );
+					printf( esc_html__( 'Theme %1$s by %2$s', 'wc-nordic-2019' ), 'WC Nordic 2019', '<a class="color-grey-100" href="https://foxland.fi/">Foxland</a>' );
 				?>
 			</p>
 		</div>
