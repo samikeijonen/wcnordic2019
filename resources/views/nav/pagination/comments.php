@@ -2,7 +2,7 @@
 /**
  * Comments pagination.
  *
- * @package uuups
+ * @package WCNordic2019
  */
 
 Hybrid\Pagination\display(
