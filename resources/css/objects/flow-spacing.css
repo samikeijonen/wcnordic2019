@@ -2,12 +2,14 @@
 	--flow-space: var(--spacing-4);
 }
 
-.entry__content > * {
+.entry__content > *,
+.wp-block-group > * {
 	@mixin center;
 	max-width: var(--max-width-m);
 }
 
-.entry__content > * + * {
+.entry__content > * + *,
+.wp-block-group > * + * {
 	margin-bottom: 0;
 	margin-top: var(--flow-space);
 }
