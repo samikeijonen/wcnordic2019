@@ -21,7 +21,12 @@
 	/* Font families. */
 	--font-family-sans: "Roboto", sans-serif;
 	--font-family-serif: "Playfair Display", serif;
-	--font-family-mono: "Monaco", "Consolas", "Andale Mono", "DejaVu Sans Mono", monospace;
+	--font-family-mono:
+		"Monaco",
+		"Consolas",
+		"Andale Mono",
+		"DejaVu Sans Mono",
+		monospace;
 
 	/* Font sizes. */
 	--font-size-s: 0.875rem;

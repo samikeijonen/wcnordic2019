@@ -7,7 +7,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: var(--spacing-4);
+	padding-bottom: var(--spacing-4);
 }
 
 .pagination__item:not(:last-child) {

@@ -23,13 +23,14 @@ input[type="color"],
 textarea,
 select {
 	background-color: var(--color-white);
-	border: 2px solid var(--color-grey-300);
+	border: 2px solid var(--color-grey-500);
 	border-radius: 0;
 	padding: var(--spacing);
 	width: 100%;
 
 	&:focus {
-		border-color: var(--color-primary-900);
+		border-color: var(--color-primary);
+		box-shadow: 0 0 var(--spacing-s) var(--color-primary-shadow);
 		/* Use transparent outline for Windows high contrast mode. */
 		outline: 2px solid transparent;
 	}

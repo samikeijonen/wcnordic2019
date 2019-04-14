@@ -83,13 +83,11 @@
 
 .menu__anchor.menu__anchor--button {
 	@mixin button-block;
-	@mixin button-block-outline;
 
 	&:hover,
 	&:active,
 	&:focus {
 		@mixin button-block-hover;
-		@mixin button-block-outline-hover;
 	}
 }
 
@@ -144,7 +142,7 @@
 			}
 
 			& > li {
-				margin-right: var(--spacing-3);
+				margin-right: var(--spacing-4);
 			}
 
 			& ul {
@@ -174,8 +172,7 @@
 				& li:hover > ul,
 				& .focus > ul,
 				& li:focus > ul {
-					left: auto;
-					right: 100%;
+					left: 100%;
 				}
 				/* stylelint-enable */
 
