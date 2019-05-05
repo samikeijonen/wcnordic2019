@@ -20,6 +20,7 @@
 	}
 
 	&__inner-container {
+		h1,
 		h2,
 		h3,
 		h4 {
@@ -136,4 +137,16 @@
 		}
 	}
 
+}
+
+.page-template-entry-no-header .wp-block-cover:first-child {
+	min-height: 80vh;
+}
+
+.page-template-entry-no-header .wp-block-cover:first-of-type {
+	margin-top: calc(var(--spacing-4) * -1);
+
+	@media (--screen-m) {
+		margin-top: 0;
+	}
 }

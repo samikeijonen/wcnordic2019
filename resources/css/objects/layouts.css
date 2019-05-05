@@ -10,3 +10,7 @@
 
 	}
 }
+
+.page-template-entry-no-header .app-main {
+	padding-top: 0;
+}

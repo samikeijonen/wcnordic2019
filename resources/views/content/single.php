@@ -12,7 +12,7 @@
 		while ( have_posts() ) :
 			the_post();
 
-			Hybrid\View\display( 'entry/single', Hybrid\Post\hierarchy() );
+			Hybrid\View\display( 'entry', Hybrid\Template\hierarchy() );
 		endwhile;
 
 		comments_template();

@@ -15,7 +15,7 @@
  */
 
 const archiver = require( 'archiver' );
-const config = require( './package.json' );
+const config = require( './../package.json' );
 const fs = require( 'fs-extra' );
 const glob = require( 'glob' );
 const path = require( 'path' );
@@ -29,8 +29,8 @@ const argv = require( 'minimist' )( process.argv.slice( 2 ), {
 
 console.log( argv );
 
-const styleFile = path.join( process.cwd(), './style.css' );
-const packageJson = path.join( process.cwd(), './package.json' );
+const styleFile = path.resolve( process.cwd(), './style.css' );
+const packageJson = path.resolve( process.cwd(), './package.json' );
 let version = argv.version;
 
 if ( ! version ) {
@@ -45,7 +45,7 @@ replaceInFile( styleFile, /(Version:[\s]+).+/, `\$1${ version }` )
 
 function compress( slug, versionNumber, files ) {
 	return new Promise( ( resolve, reject ) => {
-		const dist = path.join( process.cwd(), settings.release.folder );
+		const dist = path.resolve( process.cwd(), settings.release.folder );
 
 		try {
 			fs.mkdirSync( dist );

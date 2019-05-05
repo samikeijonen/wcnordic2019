@@ -21,7 +21,7 @@
 	<header class="app-header mx-auto max-width-s py-4">
 		<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'wc-nordic-2019' ); ?></a>
 
-		<div class="app-header__branding px-2 mb-4 text-center">
+		<div class="app-header__branding px-2">
 		<?php
 			WCNordic2019\site_title();
 			WCNordic2019\site_description();

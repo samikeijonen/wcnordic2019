@@ -14,7 +14,7 @@
 		while ( have_posts() ) :
 			the_post();
 
-			Hybrid\View\display( 'entry/archive', Hybrid\Post\hierarchy() );
+			Hybrid\View\display( 'entry', Hybrid\Template\hierarchy() );
 		endwhile;
 
 		Hybrid\View\display( 'nav/pagination', 'posts' );

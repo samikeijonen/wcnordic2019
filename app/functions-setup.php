@@ -212,3 +212,27 @@ add_action(
 	},
 	5
 );
+
+/**
+ * Registers custom templates with WordPress.
+ *
+ * @since  1.0.0
+ * @access public
+ * @param  object  $templates
+ * @return void
+ */
+add_action(
+	'hybrid/templates/register',
+	function( $templates ) {
+		$templates->add(
+			'template-entry-no-header.php',
+			[
+				'label'      => esc_html__( 'No Post Header', 'wc-nordic-2019' ),
+				'post_types' => [
+					'page',
+					'post',
+				],
+			]
+		);
+	}
+);
