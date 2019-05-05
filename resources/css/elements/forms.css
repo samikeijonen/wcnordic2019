@@ -30,7 +30,7 @@ select {
 
 	&:focus {
 		border-color: var(--color-primary);
-		box-shadow: 0 0 var(--spacing-s) var(--color-primary-shadow);
+		box-shadow: 0 0 var(--spacing-sm) var(--color-primary-shadow);
 		/* Use transparent outline for Windows high contrast mode. */
 		outline: 2px solid transparent;
 	}

@@ -5,7 +5,7 @@
 
 .wp-block-media-text {
 	align-items: center;
-	grid-gap: var(--spacing-4);
+	grid-gap: var(--spacing-4x);
 }
 
 .wp-block-media-text__media {
@@ -13,7 +13,7 @@
 }
 
 @supports (grid-area: auto) {
-	@media (--screen-m) {
+	@media (--screen-md) {
 		.wp-block-media-text {
 			grid-template-areas: "media-text-media media-text-content";
 			grid-template-columns: repeat(2, 1fr);
@@ -32,10 +32,10 @@
 		}
 	}
 
-	@media (--screen-l) {
+	@media (--screen-lg) {
 		.wp-block-media-text.alignfull {
 			grid-template-areas: "media-text-start media-text-media media-text-content media-text-end";
-			grid-template-columns: auto minmax(0, calc(var(--max-width-l) / 2 - var(--spacing-2))) minmax(0, calc(var(--max-width-l) / 2 - var(--spacing-2))) auto;
+			grid-template-columns: auto minmax(0, calc(var(--max-width-lg) / 2 - var(--spacing-2x))) minmax(0, calc(var(--max-width-lg) / 2 - var(--spacing-2x))) auto;
 		}
 	}
 }

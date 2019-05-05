@@ -8,7 +8,7 @@
 ?>
 <li <?php Hybrid\Attr\display( 'comment' ); ?>>
 
-	<header class="comment__meta flex items-center font-size-m">
+	<header class="comment__meta flex items-center font-size-md">
 		<?= get_avatar( $data->comment, 120, '', '', [ 'class' => 'comment__avatar' ] ) ?>
 
 		<div class="comment__info">

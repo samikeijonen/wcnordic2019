@@ -10,7 +10,7 @@
 
 .has-background:not(.wp-block-button__link),
 [class$="background-color"]:not(.wp-block-button__link) {
-	padding: var(--spacing-3);
+	padding: var(--spacing-6x) var(--spacing-3x);
 }
 
 /* Colors and background colors. */
@@ -30,10 +30,28 @@
 	background-color: var(--color-primary-900);
 }
 
+.has-grey-100-color {
+	color: var(--color-grey-100);
+}
+
+.has-grey-100-background-color {
+	background-color: var(--color-grey-100);
+}
+
+.has-grey-300-color {
+	color: var(--color-grey-300);
+}
+
+.has-grey-300-background-color {
+	background-color: var(--color-grey-300);
+}
+
+.has-grey-500-color,
 .has-grey-color {
 	color: var(--color-grey-500);
 }
 
+.has-grey-500-background-color,
 .has-grey-background-color {
 	background-color: var(--color-grey-500);
 }
@@ -60,4 +78,14 @@
 
 .has-light-background-color {
 	background-color: var(--color-primary-100);
+}
+
+.inherit-color {
+	color: inherit;
+}
+
+.inherit-hover-color:hover,
+.inherit-hover-color:focus,
+.inherit-hover-color:active {
+	color: inherit;
 }

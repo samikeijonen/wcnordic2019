@@ -1,19 +1,19 @@
 .alignleft {
-	@media (--screen-m) {
+	@media (--screen-md) {
 		float: left;
-		margin-bottom: var(--spacing-3);
-		margin-left: calc(50% - var(--max-width-m) / 2);
-		margin-right: var(--spacing-3);
+		margin-bottom: var(--spacing-3x);
+		margin-left: calc(50% - var(--max-width-md) / 2);
+		margin-right: var(--spacing-3x);
 		max-width: 50%;
 	}
 }
 
 .alignright {
-	@media (--screen-m) {
+	@media (--screen-md) {
 		float: right;
-		margin-bottom: var(--spacing-3);
-		margin-left: var(--spacing-3);
-		margin-right: calc(50% - var(--max-width-m) / 2);
+		margin-bottom: var(--spacing-3x);
+		margin-left: var(--spacing-3x);
+		margin-right: calc(50% - var(--max-width-md) / 2);
 		max-width: 50%;
 	}
 }
@@ -24,15 +24,15 @@
 }
 
 .alignfull {
-	margin-left: calc(var(--spacing-2) * -1);
-	margin-right: calc(var(--spacing-2) * -1);
-	max-width: calc(100% + var(--spacing-4));
+	margin-left: calc(var(--spacing-2x) * -1);
+	margin-right: calc(var(--spacing-2x) * -1);
+	max-width: calc(100% + var(--spacing-4x));
 }
 
-@media (--screen-m) {
+@media (--screen-md) {
 
 	.alignwide {
-		max-width: var(--max-width-l);
+		max-width: var(--max-width-lg);
 	}
 
 }

@@ -10,9 +10,9 @@
 	}
 
 	@supports (grid-area: auto) {
-		@media (--screen-m) {
+		@media (--screen-md) {
 			display: grid;
-			grid-gap: var(--spacing-4);
+			grid-gap: var(--spacing-4x);
 			grid-template-columns: repeat(2, 1fr);
 
 			&.has-3-columns,

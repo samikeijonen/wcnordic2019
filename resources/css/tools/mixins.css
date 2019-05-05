@@ -1,8 +1,8 @@
 @define-mixin typography {
 	color: var(--color-grey-700);
 	font-family: var(--font-family-sans);
-	font-size: var(--font-size-l);
-	line-height: var(--line-height-m);
+	font-size: var(--font-size-lg);
+	line-height: var(--line-height-md);
 	word-wrap: break-word;
 }
 
@@ -27,7 +27,7 @@
 }
 
 @define-mixin global-transition {
-	transition: all var(--transition-duration-m) ease-in-out;
+	transition: all var(--transition-duration-md) ease-in-out;
 }
 
 @define-mixin button-block {
@@ -36,13 +36,13 @@
 	border-radius: 0;
 	color: var(--color-white);
 	font-weight: 500;
-	letter-spacing: var(--letter-spacing-m);
-	padding: calc(var(--spacing) * 1.5) calc(var(--spacing-2) * 1.25);
+	letter-spacing: var(--letter-spacing-md);
+	padding: calc(var(--spacing) * 1.5) calc(var(--spacing-2x) * 1.25);
 	text-transform: uppercase;
 }
 
 @define-mixin button-block-hover {
-	background-color: var(--color-primary-500);
+	background-color: var(--color-primary-700);
 	color: var(--color-white);
 	outline-offset: -2px;
 }
@@ -64,7 +64,7 @@
 	background-color: transparent;
 	border-bottom: 2px solid;
 	border-radius: 0;
-	color: var(--color-primary-500);
+	color: var(--color-primary-700);
 	padding: 0;
 }
 
@@ -86,8 +86,8 @@
 @define-mixin hr-styles {
 	background-color: var(--color-grey-100);
 	border: 0;
-	height: var(--spacing-s);
+	height: var(--spacing-sm);
 	margin-bottom: calc(var(--spacing) * 8);
 	margin-top: calc(var(--spacing) * 8);
-	max-width: calc(var(--spacing-2) * 13);
+	max-width: calc(var(--spacing-2x) * 13);
 }

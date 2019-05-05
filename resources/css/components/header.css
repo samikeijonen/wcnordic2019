@@ -1,5 +1,5 @@
 .app-header {
-	@media (--screen-m) {
+	@media (--screen-md) {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
@@ -10,7 +10,7 @@
 .app-header__branding {
 	text-align: center;
 
-	@media (--screen-m) {
+	@media (--screen-md) {
 		text-align: left;
 	}
 }

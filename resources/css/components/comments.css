@@ -24,11 +24,11 @@
 }
 
 .comment--depth-1 {
-	padding-bottom: var(--spacing-4);
+	padding-bottom: var(--spacing-4x);
 }
 
 .comment__meta {
-	margin-bottom: var(--spacing-4);
+	margin-bottom: var(--spacing-4x);
 
 	a {
 		color: var(--color-primary-900);
@@ -45,7 +45,7 @@
 .comment__avatar {
 	border-radius: 4px;
 	height: 60px;
-	margin-right: var(--spacing-2);
+	margin-right: var(--spacing-2x);
 	width: 60px;
 }
 

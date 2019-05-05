@@ -1,6 +1,6 @@
 /* Font sizes. */
 .has-small-font-size {
-	font-size: var(--font-size-s);
+	font-size: var(--font-size-sm);
 }
 
 .has-medium-font-size {
@@ -13,5 +13,5 @@
 
 .has-larger-font-size {
 	font-size: var(--font-size-3xl);
-	line-height: var(--line-height-s);
+	line-height: var(--line-height-sm);
 }

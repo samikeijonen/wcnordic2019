@@ -1,11 +1,11 @@
 .entry__content {
-	--flow-space: var(--spacing-4);
+	--flow-space: var(--spacing-4x);
 }
 
 .entry__content > *,
 .wp-block-group > * {
 	@mixin center;
-	max-width: var(--max-width-m);
+	max-width: var(--max-width-md);
 }
 
 .entry__content > * + *,
@@ -16,7 +16,7 @@
 
 .entry__content > h2,
 .entry__content > h3 {
-	--flow-space: calc(var(--spacing-4) * 2);
+	--flow-space: calc(var(--spacing-4x) * 2);
 }
 
 .entry__content > h2 + p,
@@ -24,5 +24,5 @@
 .entry__content > h4 + p,
 .entry__content > h5 + p,
 .entry__content > h6 + p {
-	--flow-space: var(--spacing-3);
+	--flow-space: var(--spacing-3x);
 }

@@ -2,7 +2,7 @@
 	@mixin hr-styles;
 
 	&.is-style-wide {
-		max-width: var(--max-width-m);
+		max-width: var(--max-width-md);
 	}
 
 	&.is-style-dots {
@@ -17,8 +17,8 @@
 			content: "\00b7 \00b7 \00b7";
 			font-family: serif;
 			font-size: calc(var(--global-baseline) * 3);
-			letter-spacing: var(--spacing-4);
-			padding-left: var(--spacing-4);
+			letter-spacing: var(--spacing-4x);
+			padding-left: var(--spacing-4x);
 		}
 	}
 }

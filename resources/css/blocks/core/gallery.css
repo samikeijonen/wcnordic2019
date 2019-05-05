@@ -30,7 +30,7 @@
 		}
 
 		figcaption {
-			padding: var(--spacing-s);
+			padding: var(--spacing-sm);
 			position: absolute;
 			text-align: center;
 			width: 100%;

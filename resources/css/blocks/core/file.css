@@ -1,7 +1,7 @@
 .wp-block-file {
 	&__button {
 		@mixin button-block;
-		margin-left: var(--spacing-2);
+		margin-left: var(--spacing-2x);
 
 		&:visited {
 			color: var(--color-white);

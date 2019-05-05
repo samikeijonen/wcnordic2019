@@ -1,5 +1,5 @@
 a {
-	color: var(--color-primary-500);
+	color: var(--color-primary-700);
 	@mixin global-transition;
 
 	&:hover,

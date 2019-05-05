@@ -11,28 +11,24 @@
 	}
 }
 
-.font-heading {
+.font-serif {
 	font-family: var(--font-family-serif);
 }
 
-.font-main {
+.font-sans {
 	font-family: var(--font-family-sans);
+}
+
+.fw-500 {
+	font-weight: 500;
 }
 
 .fw-700 {
 	font-weight: 700;
 }
 
-.color-dark {
-	color: var(--color-primary-900);
-}
-
-.font-size-m {
-	font-size: var(--font-size-m);
-}
-
-.color-grey-60 {
-	color: var(--color-grey-500);
+.font-size-md {
+	font-size: var(--font-size-md);
 }
 
 .color-grey-100 {
@@ -49,4 +45,8 @@
 
 .block {
 	display: block;
+}
+
+.reset-list {
+	@mixing reset-list;
 }

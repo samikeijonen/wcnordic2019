@@ -37,9 +37,9 @@ function sep( $sep = '' ) {
 function site_title() {
 	if ( is_front_page() && is_home() ) :
 		?>
-		<h1 class="app-header__title mb-0 h3 font-heading fw-700"><a class="decoration-none color-dark" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<h1 class="app-header__title mb-0 h3 font-serif fw-700"><a class="decoration-none color-dark" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 	<?php else : ?>
-		<p class="app-header__title mb-0 h3 font-heading fw-700"><a class="decoration-none color-dark" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+		<p class="app-header__title mb-0 h3 font-serif fw-700"><a class="decoration-none color-dark" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 		<?php
 	endif;
 }
@@ -55,7 +55,7 @@ function site_description() {
 
 	if ( $description || is_customize_preview() ) :
 		?>
-			<p class="app-header__description color-grey-60 font-size-1 mb-0"><?php echo $description; // phpcs:ignore WordPress.XSS.EscapeOutput ?></p>
+			<p class="app-header__description has-grey-colorfont-size-1 mb-0"><?php echo $description; // phpcs:ignore WordPress.XSS.EscapeOutput ?></p>
 		<?php
 	endif;
 }

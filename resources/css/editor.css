@@ -89,17 +89,17 @@
 
 /* Paragraph needs more specifity. */
 .wp-block-paragraph {
-	font-size: var(--font-size-l);
+	font-size: var(--font-size-lg);
 }
 
 /* Main column width. */
 .wp-block {
-	max-width: calc(var(--max-width-m) + 2rem);
+	max-width: calc(var(--max-width-md) + 2rem);
 }
 
 /* Width of "wide" blocks. */
 .wp-block[data-align="wide"] {
-	max-width: var(--max-width-l);
+	max-width: var(--max-width-lg);
 }
 
 /* Width of "full-wide" blocks. */
@@ -111,7 +111,7 @@
  * Note that headings line-height is overwritten in elements/headings.css.
  */
 .editor-rich-text__tinymce:not(.wp-block-cover-text):not(.wp-block-subhead):not(h2):not(h3) {
-	line-height: var(--line-height-m);
+	line-height: var(--line-height-md);
 }
 
 /* Search styles. */
