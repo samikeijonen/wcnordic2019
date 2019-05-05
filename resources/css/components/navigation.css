@@ -25,6 +25,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+
+		& > li {
+			margin-bottom: var(--spacing-2x);
+			margin-right: var(--spacing-2x);
+		}
 	}
 }
 
@@ -65,12 +70,15 @@
 
 	/* Social menu links. */
 	&--social {
+		background-color: var(--color-primary);
 		color: var(--color-grey-100);
-		padding: var(--spacing);
+		display: block;
+		padding: var(--spacing-2x);
 
 		&:hover,
 		&:focus,
 		&:active {
+			background-color: var(--color-primary-900);
 			color: var(--color-white);
 		}
 
