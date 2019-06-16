@@ -1,4 +1,4 @@
-resources/css/generic/_normalize.scss
+assets/css/generic/_normalize.scss
 docs
 dist
 export
