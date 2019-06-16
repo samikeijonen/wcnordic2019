@@ -1,0 +1,8 @@
+.fox-blocks-cover-group__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.fox-blocks-cover-group__wrapper .wp-block-cover {
+	min-height: calc(var(--spacing) * 80);
+}
