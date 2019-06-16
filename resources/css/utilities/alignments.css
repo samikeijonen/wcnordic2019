@@ -23,16 +23,12 @@
 	clear: both;
 }
 
+.alignwide {
+	max-width: var(--max-width-lg);
+}
+
 .alignfull {
 	margin-left: calc(var(--spacing-2x) * -1);
 	margin-right: calc(var(--spacing-2x) * -1);
 	max-width: calc(100% + var(--spacing-4x));
-}
-
-@media (--screen-md) {
-
-	.alignwide {
-		max-width: var(--max-width-lg);
-	}
-
 }
