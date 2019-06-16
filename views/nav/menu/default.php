@@ -14,7 +14,7 @@ endif
 	<button id="menu-toggle" class="menu-toggle" aria-expanded="false">
 		<?php
 			esc_html_e( 'Menu', 'wc-nordic-2019' );
-			echo WCNordic2019\get_svg( [ 'icon' => 'angle-down' ] );
+			echo WCNordic2019\get_svg( [ 'icon' => 'angle-down' ] ); // phpcs:ignore
 		?>
 	</button>
 
