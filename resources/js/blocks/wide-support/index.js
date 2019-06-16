@@ -1,4 +1,3 @@
-/* global lodash */
 /**
  * Adds block class to list, paragraph, and heading blocks.
  *
