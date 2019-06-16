@@ -4,6 +4,7 @@
 		"document": true,
 		"require": true,
 		"window": true,
-		"wp": true
+		"wp": true,
+		"lodash": true
 	}
 }

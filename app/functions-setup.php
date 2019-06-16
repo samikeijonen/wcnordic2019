@@ -26,7 +26,7 @@ add_action(
 	function() {
 		// Load theme translations.
 		// @link https://developer.wordpress.org/reference/functions/load_theme_textdomain/.
-		load_theme_textdomain( 'wc-nordic-2019', get_parent_theme_file_path( 'resources/lang' ) );
+		load_theme_textdomain( 'wc-nordic-2019', get_parent_theme_file_path( 'assets/lang' ) );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
