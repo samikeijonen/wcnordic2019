@@ -27,14 +27,6 @@
 			color: inherit;
 		}
 
-		h2 {
-			font-size: var(--font-size-3xl);
-		}
-
-		h3 {
-			font-size: var(--font-size-2xl);
-		}
-
 		p {
 			font-size: var(--font-size-xl);
 		}

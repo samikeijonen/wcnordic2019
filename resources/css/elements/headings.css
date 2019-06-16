@@ -10,14 +10,15 @@ h6 {
 }
 
 h1,
-.h1 {
+.h1,
+h1.wp-block-heading {
 	font-size: var(--font-size-3xl);
 	line-height: var(--line-height-sm);
 }
 
 h2,
 .h2,
-.wp-block-heading h2.editor-rich-text__tinymce {
+h2.wp-block-heading {
 	font-size: var(--font-size-2xl);
 	line-height: var(--line-height-sm);
 }
