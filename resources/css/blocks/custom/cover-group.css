@@ -1,6 +1,11 @@
-.fox-blocks-cover-group__wrapper {
+.fox-blocks-cover-group__wrapper,
+.fox-blocks-cover-group__wrapper > .block-editor-inner-blocks > .block-editor-block-list__layout {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
+
+	@media (--screen-sm) {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 .fox-blocks-cover-group__wrapper .wp-block-cover {
