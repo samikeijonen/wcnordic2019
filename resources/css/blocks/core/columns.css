@@ -1,5 +1,4 @@
-.wp-block-columns,
-.wp-block-text-columns {
+.wp-block-columns {
 	.wp-block-column {
 		margin: 0;
 		width: auto;
@@ -10,10 +9,24 @@
 	}
 
 	@supports (grid-area: auto) {
+		display: grid;
+		grid-gap: var(--spacing-4x);
+		grid-template-columns: 1fr;
+
 		@media (--screen-md) {
-			display: grid;
-			grid-gap: var(--spacing-4x);
 			grid-template-columns: repeat(2, 1fr);
+
+			&.are-vertically-aligned-top {
+				align-items: flex-start;
+			}
+
+			&.are-vertically-aligned-center {
+				align-items: center;
+			}
+
+			&.are-vertically-aligned-bottom {
+				align-items: flex-end;
+			}
 
 			&.has-3-columns,
 			&.columns-3 {

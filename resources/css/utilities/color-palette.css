@@ -10,7 +10,7 @@
 
 .has-background:not(.wp-block-button__link),
 [class$="background-color"]:not(.wp-block-button__link) {
-	padding: var(--spacing-6x) var(--spacing-3x);
+	padding: var(--spacing-12x) var(--spacing-2x);
 }
 
 /* Colors and background colors. */
@@ -34,7 +34,8 @@
 	color: var(--color-grey-100);
 }
 
-.has-grey-100-background-color {
+.has-grey-100-background-color,
+.has-light-background-color {
 	background-color: var(--color-grey-100);
 }
 
@@ -74,10 +75,6 @@
 
 .has-light-color {
 	color: var(--color-primary-100);
-}
-
-.has-light-background-color {
-	background-color: var(--color-primary-100);
 }
 
 .inherit-color {
