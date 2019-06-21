@@ -52,7 +52,7 @@
 		"@wordpress/eslint-plugin": "^2.1.0",
 		"archiver": "^3.0.0",
 		"babel-loader": "^8.0.5",
-		"browser-sync": "^2.26.5",
+		"browser-sync": "^2.26.7",
 		"browser-sync-webpack-plugin": "^2.2.2",
 		"cache-loader": "^3.0.0",
 		"clean-webpack-plugin": "^2.0.1",
