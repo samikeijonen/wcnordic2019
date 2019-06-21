@@ -57,6 +57,10 @@
 @import "blocks/core/subhead.css";
 @import "blocks/core/table.css";
 
+/* Custom blocks. */
+@import "blocks/custom/cover-group/index.css";
+@import "blocks/custom/cover-group/editor.css";
+
 
 /*--------------------------------------------------------------
 # Utilities - Helpers and overrides.
