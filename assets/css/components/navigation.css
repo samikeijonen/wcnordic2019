@@ -71,6 +71,7 @@
 	/* Social menu links. */
 	&--social {
 		background-color: var(--color-primary);
+		border-radius: 50%;
 		color: var(--color-grey-100);
 		display: block;
 		padding: var(--spacing-2x);
