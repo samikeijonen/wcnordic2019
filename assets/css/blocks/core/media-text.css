@@ -6,6 +6,14 @@
 .wp-block-media-text {
 	align-items: center;
 	grid-gap: var(--spacing-4x);
+
+	&.is-vertically-aligned-bottom {
+		align-items: end;
+	}
+
+	&.is-vertically-aligned-top {
+		align-items: start;
+	}
 }
 
 .wp-block-media-text__media {
