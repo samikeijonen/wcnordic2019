@@ -44,7 +44,7 @@ function get_svg( $args = [] ) {
 	// Get SVG markup. Classes and other markup is added in build process.
 	$svg = file_get_contents( get_theme_file_path( '/dist/svg/' . esc_attr( $args['icon'] ) . '.svg' ) );
 
-	// Return emppty if there is no icon.
+	// Return empty if there is no icon.
 	return $svg ? $svg : '';
 }
 
