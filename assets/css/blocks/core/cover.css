@@ -3,7 +3,7 @@
 	background-size: cover;
 	display: flex;
 	justify-content: center;
-	min-height: calc(var(--spacing) * 60);
+	min-height: calc(var(--spacing) * 70);
 	padding: var(--spacing-2x);
 	position: relative;
 
