@@ -176,7 +176,6 @@
 				 * keyboard focus to submenu items.
 				 */
 				/* stylelint-disable a11y/selector-pseudo-class-focus */
-				/* stylelint-disable no-descending-specificity */
 				& .focus > ul,
 				& li:hover > ul,
 				& .focus > ul,
@@ -198,8 +197,7 @@
 				}
 			}
 
-			/* stylelint-disable no-descending-specificity,
-			a11y/selector-pseudo-class-focus */
+			/* stylelint-disable a11y/selector-pseudo-class-focus */
 			& .focus > ul,
 			& li:hover > ul,
 			& .focus > ul,

@@ -40,11 +40,11 @@
 	}
 }
 
-.is-style-outline-rounded .wp-block-button__link { /* stylelint-disable-line no-descending-specificity */
+.is-style-outline-rounded .wp-block-button__link {
 	border-radius: calc(var(--spacing) * 12);
 }
 
-.is-style-underlined .wp-block-button__link { /* stylelint-disable-line no-descending-specificity */
+.is-style-underlined .wp-block-button__link {
 	@mixin button-block-underlined;
 
 	&:hover,
