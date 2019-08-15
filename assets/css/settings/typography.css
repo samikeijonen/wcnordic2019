@@ -6,22 +6,6 @@
  */
 
 :root {
-	/* Spacing. */
-	--spacing-sm: 4px;
-	--spacing: 0.5rem;
-	--spacing-2x: 1rem;
-	--spacing-3x: 1.5rem;
-	--spacing-4x: 2rem;
-	--spacing-4x: 2rem;
-	--spacing-5x: 2.5rem;
-	--spacing-6x: 3rem;
-	--spacing-7x: 3.5rem;
-	--spacing-8x: 4rem;
-	--spacing-9x: 4.5rem;
-	--spacing-10x: 5rem;
-	--spacing-11x: 5.5rem;
-	--spacing-12x: 6rem;
-
 	/* Font families. */
 	--font-family-sans: "Roboto", sans-serif;
 	--font-family-serif: "Playfair Display", serif;
@@ -60,13 +44,4 @@
 
 	/* Letter spacings. */
 	--letter-spacing-md: 0.1em;
-
-	/* Max widths. */
-	--max-width-md: 42rem;
-	--max-width-lg: 65rem;
-	--max-width-xl: 78rem;
-	--max-width-2xl: 120rem;
-
-	/* Transition. */
-	--transition-duration-md: 300ms;
 }

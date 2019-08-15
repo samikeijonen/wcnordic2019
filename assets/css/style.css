@@ -9,10 +9,13 @@
 /*--------------------------------------------------------------
 # Settings - Global variables, config switches.
 --------------------------------------------------------------*/
-@import "settings/media-queries.css";
-@import "settings/variables.css";
-@import "settings/fonts.css";
+@import "settings/media-queries.css"; /* Needs to come first, others are using it. */
 @import "settings/colors.css";
+@import "settings/fonts.css";
+@import "settings/spacing.css";
+@import "settings/transitions.css";
+@import "settings/typography.css";
+@import "settings/widths.css";
 
 
 /*--------------------------------------------------------------
@@ -55,6 +58,7 @@
 @import "objects/flow-spacing.css";
 @import "objects/icons.css";
 @import "objects/layouts.css";
+@import "objects/max-widths.css";
 @import "objects/wrappers.css";
 
 
@@ -83,15 +87,17 @@
 /*--------------------------------------------------------------
 # Components - specific UI components.
 --------------------------------------------------------------*/
-@import "components/archives.css";
+@import "components/archive.css";
 @import "components/comments.css";
-@import "components/galleries.css";
+@import "components/entry.css";
+@import "components/gallery.css";
 @import "components/header.css";
-@import "components/media.css";
-@import "components/navigation.css";
+@import "components/menu.css";
 @import "components/pagination.css";
-@import "components/posts-and-pages.css";
-@import "components/widgets.css";
+@import "components/sidebar.css";
+@import "components/terms.css";
+@import "components/widget.css";
+@import "components/wp-media.css";
 
 
 /*--------------------------------------------------------------
@@ -103,4 +109,5 @@
 @import "utilities/font-sizes.css";
 @import "utilities/helpers.css";
 @import "utilities/prefers-reduced-motion.css";
+@import "utilities/spacing.css";
 @import "utilities/text.css";
