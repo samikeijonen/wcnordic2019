@@ -1,4 +1,5 @@
 .wp-caption,
 .wp-caption-text,
-.bypostauthor { /* stylelint-disable-line */
+.bypostauthor,
+.sticky { /* stylelint-disable-line */
 }

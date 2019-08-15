@@ -20,12 +20,12 @@
 		?>
 	</div>
 
-	<footer class="entry__footer">
+	<footer class="entry__footer mt-4">
 		<?php
 		Hybrid\Post\display_terms(
 			[
 				'taxonomy' => 'category',
-				'before'   => '<span class="terms-wrapper"><span class="screen-reader-text">' . esc_html__( 'Categories:', 'wc-nordic-2019' ) . ' </span>' . WCNordic2019\get_svg( [ 'icon' => 'folder-open' ] ),
+				'before'   => '<span class="terms__wrapper"><span class="screen-reader-text">' . esc_html__( 'Categories:', 'wc-nordic-2019' ) . ' </span>' . WCNordic2019\get_svg( [ 'icon' => 'folder-open' ] ),
 				'after'    => '</span>',
 			]
 		);
@@ -33,7 +33,7 @@
 		Hybrid\Post\display_terms(
 			[
 				'taxonomy' => 'post_tag',
-				'before'   => '<span class="terms-wrapper"><span class="screen-reader-text">' . esc_html__( 'Tags:', 'wc-nordic-2019' ) . ' </span>' . WCNordic2019\get_svg( [ 'icon' => 'hashtag' ] ),
+				'before'   => '<span class="terms__wrapper"><span class="screen-reader-text">' . esc_html__( 'Tags:', 'wc-nordic-2019' ) . ' </span>' . WCNordic2019\get_svg( [ 'icon' => 'hashtag' ] ),
 				'after'    => '</span>',
 			]
 		);
