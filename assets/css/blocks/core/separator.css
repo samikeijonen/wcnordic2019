@@ -1,5 +1,6 @@
 .wp-block-separator {
 	@mixin hr-styles;
+	padding: 0;
 
 	&.is-style-wide {
 		max-width: var(--max-width-md);
