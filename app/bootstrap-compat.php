@@ -25,12 +25,12 @@ add_action( 'template_redirect', 'wc_nordic_2019_preview' );
  * @return mixed
  */
 function wc_nordic_2019_compat_message() {
-	if ( version_compare( $GLOBALS['wp_version'], '4.9', '<' ) ) {
+	if ( version_compare( $GLOBALS['wp_version'], '5.2', '<' ) ) {
 
 		return sprintf(
 			/* translators: %1$s is supported WordPress version, and %2$s is WordPress version used. */
 			esc_html__( 'Theme requires at least WordPress version %1$s. You are running version %2$s. Please upgrade and try again.', 'wc-nordic-2019' ),
-			'4.9',
+			'5.2',
 			$GLOBALS['wp_version']
 		);
 
