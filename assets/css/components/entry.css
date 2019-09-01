@@ -3,7 +3,7 @@
 .entry__footer,
 .comments-template {
 	@mixin center;
-	max-width: var(--max-width-md);
+	max-width: var(--max-w-md);
 }
 
 .entry--archive {
@@ -11,7 +11,7 @@
 	margin-bottom: var(--spacing-8x);
 	margin-left: auto;
 	margin-right: auto;
-	max-width: var(--max-width-md);
+	max-width: var(--max-w-md);
 	padding-bottom: var(--spacing-8x);
 }
 

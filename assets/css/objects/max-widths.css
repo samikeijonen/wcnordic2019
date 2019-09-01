@@ -1,5 +1,5 @@
 .entry__content > *,
 .wp-block-group__inner-container > * {
 	@mixin center;
-	max-width: var(--max-width-md);
+	max-width: var(--max-w-md);
 }

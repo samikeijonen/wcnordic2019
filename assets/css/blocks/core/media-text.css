@@ -43,7 +43,7 @@
 	@media (--screen-lg) {
 		.wp-block-media-text.alignfull {
 			grid-template-areas: "media-text-start media-text-media media-text-content media-text-end";
-			grid-template-columns: auto minmax(0, calc(var(--max-width-lg) / 2 - var(--spacing-2x))) minmax(0, calc(var(--max-width-lg) / 2 - var(--spacing-2x))) auto;
+			grid-template-columns: auto minmax(0, calc(var(--max-w-lg) / 2 - var(--spacing-2x))) minmax(0, calc(var(--max-w-lg) / 2 - var(--spacing-2x))) auto;
 		}
 	}
 }

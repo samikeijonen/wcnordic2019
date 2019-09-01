@@ -15,7 +15,7 @@
 		blockquote {
 			margin-left: auto;
 			margin-right: auto;
-			max-width: var(--max-width-md);
+			max-width: var(--max-w-md);
 			padding-bottom: calc(var(--spacing-3x) * 2);
 			padding-top: calc(var(--spacing-3x) * 2);
 		}

@@ -9,11 +9,11 @@
 --------------------------------------------------------------*/
 @import "settings/media-queries.css";
 @import "settings/fonts.css";
+@import "settings/max-width.css";
 @import "settings/colors.css";
 @import "settings/spacing.css";
 @import "settings/transitions.css";
 @import "settings/typography.css";
-@import "settings/widths.css";
 
 
 /*--------------------------------------------------------------
@@ -67,6 +67,7 @@
 @import "utilities/color-palette.css";
 @import "utilities/font-sizes.css";
 @import "utilities/helpers.css";
+@import "utilities/max-width.css";
 @import "utilities/prefers-reduced-motion.css";
 @import "utilities/spacing.css";
 @import "utilities/text.css";
@@ -99,12 +100,12 @@
 
 /* Main column width. */
 .wp-block {
-	max-width: calc(var(--max-width-md) + 2rem);
+	max-width: calc(var(--max-w-md) + 2rem);
 }
 
 /* Width of "wide" blocks. */
 .wp-block[data-align="wide"] {
-	max-width: var(--max-width-lg);
+	max-width: var(--max-w-lg);
 }
 
 /* Width of "full-wide" blocks. */

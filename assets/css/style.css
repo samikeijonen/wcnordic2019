@@ -12,10 +12,10 @@
 @import "settings/media-queries.css"; /* Needs to come first, others are using it. */
 @import "settings/colors.css";
 @import "settings/fonts.css";
+@import "settings/max-width.css";
 @import "settings/spacing.css";
 @import "settings/transitions.css";
 @import "settings/typography.css";
-@import "settings/widths.css";
 
 
 /*--------------------------------------------------------------
@@ -56,10 +56,9 @@
 --------------------------------------------------------------*/
 @import "objects/animations.css";
 @import "objects/flow-spacing.css";
-@import "objects/icons.css";
 @import "objects/layouts.css";
 @import "objects/max-widths.css";
-@import "objects/wrappers.css";
+@import "objects/svg.css";
 
 
 /*--------------------------------------------------------------
@@ -104,10 +103,11 @@
 # Utilities - Helpers and overrides.
 --------------------------------------------------------------*/
 @import "utilities/accessibility.css";
-@import "utilities/alignments.css";
+@import "utilities/alignment.css";
 @import "utilities/color-palette.css";
 @import "utilities/font-sizes.css";
 @import "utilities/helpers.css";
+@import "utilities/max-width.css";
 @import "utilities/prefers-reduced-motion.css";
 @import "utilities/spacing.css";
 @import "utilities/text.css";
