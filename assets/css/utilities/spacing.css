@@ -53,3 +53,8 @@
 .mt-4 {
 	margin-top: var(--spacing-4x);
 }
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}

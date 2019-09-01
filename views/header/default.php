@@ -18,8 +18,8 @@
 <body <?php Hybrid\Attr\display( 'body' ); ?>>
 <?php wp_body_open(); ?>
 
-<div class="app mx-auto max-width-full">
-	<header class="app-header mx-auto max-width-xl py-4">
+<div class="app mx-auto max-w-2xl">
+	<header class="app-header mx-auto max-w-xl py-4">
 		<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'wc-nordic-2019' ); ?></a>
 
 		<div class="app-header__branding px-2">

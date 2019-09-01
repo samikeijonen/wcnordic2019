@@ -6,7 +6,7 @@
  */
 
 ?>
-<main id="main" class="app-main px-2 py-4 mx-auto max-width-xl">
+<main id="main" class="app-main px-2 py-4 mx-auto max-w-xl">
 	<?php
 	Hybrid\View\display( 'partials', 'archive-header' );
 

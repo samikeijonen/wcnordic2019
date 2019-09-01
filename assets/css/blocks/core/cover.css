@@ -10,7 +10,7 @@
 	&-text,
 	&__inner-container {
 		color: var(--color-white);
-		max-width: var(--max-width-md);
+		max-width: var(--max-w-md);
 		text-align: center;
 		z-index: 1;
 	}
@@ -125,7 +125,7 @@
 		.wp-block-cover-text {
 			margin-left: auto;
 			margin-right: auto;
-			max-width: var(--max-width-md);
+			max-width: var(--max-w-md);
 		}
 	}
 

@@ -9,7 +9,7 @@
 
 ?>
 	<footer class="app-footer px-2 py-8 has-grey-700-background-color has-white-color">
-		<div class="mx-auto max-width-xl">
+		<div class="mx-auto max-w-xl">
 			<?php Hybrid\View\display( 'nav/menu', 'social', [ 'name' => 'social' ] ); ?>
 
 			<p class="app-footer__credit text-center has-grey-100-color mb-0">

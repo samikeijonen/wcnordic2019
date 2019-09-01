@@ -3,7 +3,7 @@
 	padding: 0;
 
 	&.is-style-wide {
-		max-width: var(--max-width-md);
+		max-width: var(--max-w-md);
 	}
 
 	&.is-style-dots {
