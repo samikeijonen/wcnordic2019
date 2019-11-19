@@ -49,6 +49,7 @@
 @import "blocks/core/embeds.css";
 @import "blocks/core/file.css";
 @import "blocks/core/gallery.css";
+@import "blocks/core/image.css";
 @import "blocks/core/latest-comments.css";
 @import "blocks/core/latest-posts.css";
 @import "blocks/core/media-text.css";

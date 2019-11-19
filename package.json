@@ -81,7 +81,7 @@
 		"rimraf": "^3.0.0",
 		"terser-webpack-plugin": "^1.4.1",
 		"theme-claim": "^0.2.0",
-		"webpack": "^4.39.2",
+		"webpack": "^4.41.2",
 		"webpack-cli": "^3.3.6",
 		"webpack-fix-style-only-entries": "^0.3.0",
 		"webpack-manifest-plugin": "^2.0.4",
